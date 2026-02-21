@@ -4,7 +4,7 @@ import Spline from "@splinetool/react-spline";
 /* ─── Data ─────────────────────────────────────────────────── */
 const NAV_LINKS = ["Home", "About", "Services", "Contact"];
 
-const WHATSAPP_NUMBER = "918208479621"; // Primary WhatsApp number
+const WHATSAPP_NUMBER = "919139459221"; // Primary WhatsApp number
 
 const SERVICES = [
   {
@@ -600,7 +600,7 @@ export default function App() {
               >
                 <button
                   className="btn-primary"
-                  onClick={() => window.open("tel:8208479621")}
+                  onClick={() => window.open("tel:9139459221")}
                 >
                   📞 Call Now
                 </button>
@@ -625,7 +625,7 @@ export default function App() {
                 {[
                   ["📍", "Wadgaon Sheri, Pune"],
                   ["⏰", "Mon–Sat: 10AM – 8PM"],
-                  ["📞", "8208479621 / 9923480554"],
+                  ["📞", "+91 91394 59221"],
                 ].map(([icon, text]) => (
                   <div
                     key={text}
@@ -1561,7 +1561,7 @@ export default function App() {
               <button
                 key={item}
                 onClick={() => {
-                  if (i === 0) window.open("tel:8208479621");
+                  if (i === 0) window.open("tel:9139459221");
                   else if (i === 1)
                     window.open(`https://wa.me/${WHATSAPP_NUMBER}`, "_blank");
                   else
