@@ -1221,8 +1221,8 @@ export default function App() {
                   {
                     icon: "📞",
                     label: "Phone",
-                    val: "8208479621 / 9923480554",
-                    href: "tel:8208479621",
+                    val: "+91 91394 59221",
+                    href: "tel:9139459221",
                   },
                   {
                     icon: "⏰",
@@ -1311,7 +1311,7 @@ export default function App() {
               </div>
               <button
                 className="btn-primary"
-                onClick={() => window.open("tel:8208479621")}
+                onClick={() => window.open("tel:9139459221")}
                 style={{ width: "100%", marginBottom: 12, justifyContent: "center" }}
               >
                 📞 Call Now
